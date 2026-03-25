@@ -1,0 +1,8 @@
+pywin32
+sqlalchemy
+pyodbc
+tenacity
+pydantic
+tenacity
+pyodbc
+pytest
