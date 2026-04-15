@@ -1,0 +1,13 @@
+service.py cargado OK
+.....
+imports base OK
+win32serviceutil OK
+win32service OK
+win32event OK
+servicemanager OK
+threading OK
+load_config OK
+DataBaseManager OK
+get_logger OK
+logger instanciado OK
+__init__ iniciado

@@ -19,7 +19,7 @@ class DataBaseManager:
                 con = self.connections[name_connection]
                 
                 try:
-                    con.cursor().execute('SELEC 1')
+                    con.cursor().execute('SELECT 1')
                     return con
                 except (pyodbc.Error, Exception):
                     log.warning(f"Conexión {name_connection} estaba caida")
